@@ -12,7 +12,7 @@ Example:
     >>> M1 = client.generate(salt, server_B)
 """
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 from .client import SRPClient
 from .constants import (

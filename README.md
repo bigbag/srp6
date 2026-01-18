@@ -10,13 +10,13 @@ A pure Python implementation of the Secure Remote Password protocol (SRP version
 
 ## Overview
 
-SRP (Secure Remote Password) is a password-authenticated key exchange protocol that allows secure authentication without transmitting the password over the network. This implementation follows RFC 5054 and includes support for GSA (Grand Slam Authentication) mode used by Apple services.
+SRP (Secure Remote Password) is a password-authenticated key exchange protocol that allows secure authentication without transmitting the password over the network. This implementation follows RFC 5054 and includes support for GSA (Grand Slam Authentication) mode.
 
 ## Features
 
 - **Pure Python** - No external dependencies, uses only Python standard library
 - **Multiple Key Sizes** - Support for 1024 to 8192-bit primes from RFC 5054
-- **GSA Mode** - Compatible with Apple's authentication services
+- **GSA Mode** - Compatible with GSA authentication services
 - **Hash Cash** - Includes proof-of-work implementation for rate limiting
 - **Type Hints** - Full type annotation support
 
